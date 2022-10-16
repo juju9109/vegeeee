@@ -1,0 +1,262 @@
+html{
+
+}
+
+
+body{
+    margin: 0%;   
+    background-color: #edf2c5;
+    font-family: Arial;   
+}
+
+
+.container{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+        
+/*標題*/
+.title{
+ 
+    font-size: 44px;
+    font-weight: 900;
+    display: flex;  
+    margin-top: 36px;
+    margin-bottom: 5px;
+    line-height: 0.82;
+    font-size: 44px;
+    font-weight: 900;
+    align-items: baseline;
+}
+
+h1{
+    color: #778a50;
+    font-weight: 900;
+    font-size: 44px;
+    margin:0;
+    align-items:flex-start 
+}
+
+
+.header-right{
+    margin-left: 469px;
+    display: flex;
+    align-items: center;
+}
+
+.fb-ig{
+    margin-right: 10px;
+    
+}
+
+.line_login{
+    /*IG跟LOING中間的線條*/
+    width: 1px;
+    height: 25px;
+    margin: 0 ;
+    background-color: #778a50;
+}
+
+.LOGIN{
+    display: flex;   
+    align-items: center;
+}
+
+.TEXT-L:hover{
+    transform: scale(0.9);
+    color: #edf2c5;
+    background-color: #778a50;
+}
+
+.TEXT-J:hover{
+    transform: scale(0.9);
+    color: #edf2c5;
+    background-color: #778a50;
+}
+
+
+.TEXT-L{
+    margin: 0;   
+    color: #778a50;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: dashed; 
+    padding:6px  7px ;
+
+    text-align: center;
+    border: 1px solid  #778a50 ;
+    border-radius: 3px;
+    margin: 0px 0px 0 10px;
+    transition: all .3s linear;
+}
+
+
+.TEXT-J{
+    margin: 0;   
+    color: #778a50;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: dashed; 
+    padding:6px  7px ;
+
+    text-align: center;
+    border: 1px solid  #778a50 ;
+    
+    border-radius: 3px;
+    margin: 0px 0px 0 10px;
+    transition: all .3s linear;
+}
+
+
+
+
+/*內容物*/
+
+/*選單*/
+.navbox{
+    width: 940px;
+    height: 44px;   
+    margin:0;
+    background-color:#778a50 ;
+    border-radius: 3px;
+}
+
+.list{
+    display: flex;   
+}
+
+.list-item{
+    margin-right :60px;
+    list-style: none;
+    margin-top: 10px;
+   
+}
+
+
+
+.list-item-link{
+  font-size: 16px;
+  font-weight: 900;
+  text-align: left;
+  color: #edf2c5;
+  text-decoration: dashed; 
+
+  transition: all .2s linear;
+}
+
+
+.list-item-link:hover{
+    color: #4a5112;
+    
+}
+
+
+
+/*大圖片*/
+.pumpkin{
+    margin-top:20px;
+    margin-bottom: 0%;
+   
+}
+
+/*下半部*/
+.part2{
+    margin-top: 30px;
+    display: flex;
+}
+
+/*題目跟方塊*/
+.Vegetables-Contact-box{
+    background-color: #778a50;  
+    width: 444px;
+    height: 45px;
+    margin:  0;
+    margin-right: 52px;
+    border-radius: 3px;  
+    align-items: center;
+    
+}
+
+.Vegetables-Contact{
+    margin: 0;
+    color: #edf2c5;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 900;
+    padding-left: 30px;
+    line-height: 45px;
+    
+}
+  
+/*下三張圖片*/
+
+.picture{
+    display: flex;   
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.pic{
+  
+    margin-top: 15px;
+    margin-bottom: 35px;
+    width: 140px;
+    height: 140px;
+    margin: 0 12px 0 0;
+}
+
+
+/*右邊*/
+.sidebar{
+   background-color: #f7fbda;
+   width: 444px;
+   height: 140px; 
+   margin-top: 15px;
+}
+
+.For-any-questions{
+    padding: 15px; 
+    margin: 0;  
+    font-size: 12px;
+    line-height: 1.25;
+    text-align: left;
+    color: #7d7d7d;
+}
+
+.e-mail{
+    color: #7d7d7d;
+    line-height: 1.75;
+    font-size: 12px;
+    padding: 15px; 
+    padding: 15px; 
+    margin: 0;  
+}
+
+
+
+
+.line_contact_text{
+    width: 414px;
+  height: 1px;
+ margin-left: 15px;
+  background-color: #7d7d7d;
+}
+
+
+/*footer*/
+
+.footer{
+
+    background-color: #778a50;
+    height: 60px;
+
+}
+
+.Copyrights{
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+    color: #edf2c5;    
+}
+
